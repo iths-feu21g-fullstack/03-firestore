@@ -4,19 +4,6 @@ import { collection, getDocs, doc, getDoc } from "firebase/firestore"
 import { db } from './firebase.js'
 
 
-/*
-// Hämta alla dokument
-const colRef = collection(db, "animals");
-let animals = [];
-getDocs(colRef).then((snapshot) => {
-	snapshot.docs.forEach((doc) => {
-		animals.push({ ...doc.data(), id: doc.id });
-	});
-	console.log(animals);
-});
-*/
-
-
 // Referens till animals collection
 const collectionRef = collection(db, 'animals')
 
