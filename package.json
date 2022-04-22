@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "firebase": "node database/firebase.js"
+    "firebase": "node database/firebase.js",
+	"start-server": "node server.js",
+	"start": "node server.js"
   },
   "keywords": [],
   "author": "",
